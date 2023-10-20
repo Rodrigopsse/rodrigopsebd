@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio pessoal</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Cria-se aqui o CSS externo cuja denominação foi estilo2.CSS-->
+
+</head>
+<body>
+    
+<body>
+    <header class="container header"> <!-- para o cabeçalho da página eu chamo a class container e header, a fim de que as configurações declaradas nessas classes estejam presentes no cabeçalho. Por se tratar do cabeçalho, o texto nele presente deve estar contido dentro da tag header -->
+        <h1>  PORTFÓLIO PESSOAL</h1>
+    </header>
+    <nav class="container menu"> <!-- para o preenchimento do campo abaixo do cabeçalho da página eu chamo a class container e a menu, a fim de que as configurações declaradas nessas classes estejam presentes nesse campo. Esse campo é caracterizado pela tag NAV e todo conteúdo desse campo deve estar dentro dessa tag -->
+        <ul>
+            <li><a href= "index.html"> Sobre mim </a></li> <!-- Criação do hiperlink sobre mim. Ele está dentro da tag NAV, o que indica que ele estará disposto no campo abaixo do cabeçalho-->
+            <li><a href= "index1.html"> Formação Educacional </a></li> 
+            <li><a href= "index2.html"> Portfólio </a></li>
+            <li><a href= "index3.html"> Contato </a></li>
+        </ul>
+    </nav>
+    
+    <section class="container textoprincipal">
+        <h1 style="text-align: center;"> Formulário para contato</h1>
+        <br><br>
+        <form>
+            <table>
+                <tr>
+                    <th><label for= "nome"> Nome: </label></th>
+                    <td><input type="text" name="Nome"></td>
+                </tr>
+                <tr>
+                    <th><label for= "email"> Email: </label></th>
+                    <td><input type="email" name="Email"></td>
+                </tr>
+                <tr>
+                    <th><label for= "msg"> Digite a sua <br>mensagem: </label></th>
+                    <td><textarea name="msg" rows="10" cols="50"> Digite a sua mensagem</textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button> Enviar</button></td>
+                </tr>
+            </table>
+        </form>     
+    </section>
+
+    <br><br><br>
+
+    <footer class="container">
+        <h6>Esta pagina é protegida por direitos autorais. 
+            Sua cópia é proibida por lei !!!
+        </h6>
+    </footer>
+    </div>
+    
+</body>
+</html>

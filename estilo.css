@@ -1,0 +1,110 @@
+body {
+    margin: 0; /* retira as margens fazendo a imagem preencher toda a tela*/
+}
+
+p::first-letter{
+    color: blue;
+    font-size: xx-large;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 90px ;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(43, 43, 68);
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    height: 50px;
+    padding: 10px;
+    margin-top: 2px;
+    background-color: rgb(112, 112, 179);
+}
+
+#imagem {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 70px; /* a imagem dáum espaçamento em relação ao campo NAV*/
+    float: left; /* Permite que o texto fique ao redor da imagem*/
+    margin-left: 10px ; /*Desloca a imagem para a esquerda*/
+    margin-right: 10px;/*Atribuindo uma margem a direita da imagem de 20px, o efeito prático que se vê é o deslocamento para a direita do texto ao redor da imagem*/
+}
+
+
+.lateral { /* coluna presente na aba formação colocada para design da tela*/
+    width: 200px;
+    height: 400px;
+    background-color: rgb(43, 43, 68);
+    margin-top: 30px;
+
+}
+
+.textoprincipal {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+a:link { /* Retira o sublihado do link do portfolio*/
+    text-decoration: none;
+   
+}
+
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: rgb(43, 43, 68);
+    color: white;
+    text-align: center;
+}
+
+ul {
+    List-style-type: none; /* retira o marcador da lista*/
+    margin: 10px;
+    padding: 2px;
+    display: auto;
+    background-color:rgb(112, 112, 179)
+}
+
+
+li a{
+    color:black;
+    padding: 8px;
+    text-decoration:none; /* retira a decoração do texto */
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(112, 112, 179);
+}
+
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: rgb(47, 20, 134);
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+
+button{
+    background-color: rgb(4, 4, 34);
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
